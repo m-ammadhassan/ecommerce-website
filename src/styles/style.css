@@ -1,0 +1,29 @@
+.background-overlay{
+   filter:brightness(0.5);
+}
+
+.slider-content{
+    position: absolute;
+    z-index: 1;
+    color:white;
+}
+
+
+.collection-page .swiper .swiper-pagination
+{
+    position: relative; margin-top: 2rem;
+}
+
+.collection-page .swiper-pagination .swiper-pagination-bullet
+{
+    height: .5rem; 
+    width: .5rem;
+    background-color: transparent;
+    border: 1px solid #004c59;
+    opacity: 1;
+}
+
+.collection-page .swiper-pagination .swiper-pagination-bullet-active
+{
+    background-color: #004c59;
+}

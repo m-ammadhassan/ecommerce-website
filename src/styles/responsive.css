@@ -1,0 +1,8 @@
+@media only screen and (max-width: 320px)
+{
+    .MuiPaper-root .MuiToolbar-root
+    {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
